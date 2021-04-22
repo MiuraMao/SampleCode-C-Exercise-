@@ -22,5 +22,5 @@ int main(void){
     scanf("%d", &n);
     rounded = round_to(val, n);     //valを小数点以下n桁までにする
     printf("%f\n", rounded);
-    return 0;
+    return 0;                       //main関数のreturn 0は省略可（本体最後の}で戻り値０で戻る）
 }
