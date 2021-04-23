@@ -15,7 +15,7 @@ void wait_enter(void){
 
     printf("サイコロを振るにはエンターキーを押して下さい");
     scanf("%c", &dummy);        //dummyの値は'\n'だろうが、使わない。
-    //戻り値を返さないためreturn分は省略
+    //戻り値を返さないためreturn文は省略
 }
 
 int main(void){
