@@ -9,7 +9,8 @@ void cancel(int *np, int *dp){      //仮引数でポインタを受け取る（
         if (*np % fact == 0 && *dp % fact == 0){    //両者を割り切れる数で
             *np /= fact;    //約分
             *dp /= fact;    //していく
-        }else   fact++;
+        }else
+            fact++;
     }
 }
 
