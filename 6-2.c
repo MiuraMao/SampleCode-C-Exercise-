@@ -6,7 +6,7 @@ void cancel(int *np, int *dp){      //仮引数でポインタを受け取る（
     int fact = 2;
 
     while (fact <= *dp){            //２から分母（*dp）までの
-        if (*np % fact == 0 && *dp % fact == 0){//両者を割り切れる数で
+        if (*np % fact == 0 && *dp % fact == 0){    //両者を割り切れる数で
             *np /= fact;    //約分
             *dp /= fact;    //していく
         }else   fact++;
