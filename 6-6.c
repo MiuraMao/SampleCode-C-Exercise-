@@ -1,4 +1,5 @@
 #include <stdio.h>
+//一次元セルオートマトン
 
 enum { NCELL = 31 };                    //セル数
 
