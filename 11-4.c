@@ -38,7 +38,7 @@ struct station *make_line(void){
         tail = p;
     }
     tail->next = NULL;
-    return head;                           //先頭要素へのポインタを返す（80行目で使用するため）
+    return head;                           //先頭要素へのポインタを返す
 }
 
 /*show_line - 路線を表示する*/
